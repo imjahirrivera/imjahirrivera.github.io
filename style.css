@@ -1,0 +1,31 @@
+html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  
+body {
+    background-color: #454661;
+}
+
+.contenedor {
+    width: 800px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+.azul {
+    grid-column: span 1;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.blanco {
+    grid-column: span 2;
+    font-family: 'Nunito', sans-serif;
+}

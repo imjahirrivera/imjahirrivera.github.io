@@ -1,0 +1,78 @@
+.blanco {
+    margin: 0px 20px 0px 20px;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.estudios h3 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #004166;
+}
+
+.blanco-contenedor small {
+    font-size: 15px;
+}
+
+.blanco-contenedor b {
+    font-size: 20px;
+}
+
+.blanco-contenedor i {
+    font-size: 15px;
+}
+
+.blanco-contenedor li {
+    font-size: 20px;
+}
+
+:root {
+    --bg2: #004166;
+}
+
+.experiencia h3 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: var(--bg2);
+}
+
+.proyectos h3 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: var(--bg2);
+}
+
+.intereses h3 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: var(--bg2);
+}
+
+.referencias h3 {
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: var(--bg2);
+}
+
+.referencias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.referencias h3 {
+    grid-column: span 2;
+}
+
+.referencias .ref-1 {
+    grid-row-start: 2;
+    grid-column: span 1;
+}
+
+.referencias .ref-2 {
+    grid-row-start: 2;
+    grid-column: span 1;
+}
+
